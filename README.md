@@ -3,7 +3,7 @@
 
 - 👨 I go by the handle `theablemo` almost in every social media. It consists of three parts: 1. The (Cause every humanbeing is unique) 2. Able (I believe I can do all things if I put enough effort in it!) 3. Mo (As you can call me Mo instead of Mohammad)
 
-- 🔭 I’m currently working on **learning HCI**
+- 🔭 I’m currently working on **HCI research**
 
 - 🌱 I’m currently learning **anything that can help me be a better professional and researcher!**
 
