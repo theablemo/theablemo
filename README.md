@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mohammad</h1>
 <h3 align="center">A design enthusiast, software engineer, and computer engineering student.</h3>
 
-- 👨 I go by the handle `theablemo` almost in every social media. It consists of three parts: 1. The (Cause every humanbeing is unique) 2. Able (I believe I can do all things if I put enough effort in it!) 3. Mo (As you can call me Mo instead of Mohammad)
+- 👨 I go by the handle `theablemo` in almost every social media. It consists of three parts: 1. The (Cause every human being is unique) 2. Able (I believe I can do all things if I put enough effort in it!) 3. Mo (As you can call me Mo instead of Mohammad)
 
 - 🔭 I’m currently working on **HCI research**
 
