@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Mohammad</h1>
 <h3 align="center">A design enthusiast, software engineer, and computer engineering student.</h3>
 
+- 👨 I go by the handle `theablemo` almost in every social media. It consists of three parts: 1. The (Cause every humanbeing is unique) 2. Able (I believe I can do all things if I put enough effort in it!) 3. Mo (As you can call me Mo instead of Mohammad)
+
 - 🔭 I’m currently working on **learning HCI**
 
 - 🌱 I’m currently learning **anything that can help me be a better professional and researcher!**
@@ -9,11 +11,11 @@
 
 - 👨‍💻 All of my projects are available at [theablemo.github.io](theablemo.github.io)
 
-- 💬 Ask me about **Flutter, design**
+- 💬 Ask me about **Flutter, Design**
 
 - 📫 How to reach me **mohammad.abolnejadian@gmail.com**
 
-- ⚡ Fun fact **I do 80% of my stuff in 20% of the time. (Thanks to the panic monkey)**
+- ⚡ Fun fact **I do 80% of my stuff in 20% of the time. (Thanks to the [panic monkey](https://youtu.be/arj7oStGLkU))**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
