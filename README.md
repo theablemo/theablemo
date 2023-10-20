@@ -5,9 +5,9 @@
 
 - 🔭 I’m currently working and looking to collaborate on **HCI research**
 
-- 🌱 I’m currently learning **anything that can help me be a better professional and researcher!**
+- 🌱 I’m currently learning **anything that can help me be a better researcher and human!**
 
-- 🔬 My interest are on the following topics:
+- 🔬 My interests are in the following topics:
   - Human-Computer Interaction (HCI)
   - Software Engineering
   - Applied Artificial Intelligence
