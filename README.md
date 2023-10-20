@@ -3,11 +3,14 @@
 
 - 👨 I go by the handle `theablemo` in almost every social media. It consists of three parts: 1. The (Cause every human being is unique) 2. Able (I believe I can do all things if I put enough effort in it!) 3. Mo (As you can call me Mo instead of Mohammad)
 
-- 🔭 I’m currently working on **HCI research**
+- 🔭 I’m currently working and looking to collaborate on **HCI research**
 
 - 🌱 I’m currently learning **anything that can help me be a better professional and researcher!**
 
-- 👯 I’m looking to collaborate on **HCI research**
+- 🔬 My interest are on the following topics:
+  - Human-Computer Interaction (HCI)
+  - Software Engineering
+  - Applied Artificial Intelligence
 
 - 👨‍💻 All of my projects are available at [theablemo.github.io](theablemo.github.io)
 
