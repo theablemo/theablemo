@@ -12,7 +12,7 @@
   - Software Engineering
   - Applied Artificial Intelligence
 
-- 👨‍💻 All of my projects are available at [theablemo.github.io](theablemo.github.io)
+- 👨‍💻 All of my projects are available at [theablemo.github.io](https://theablemo.github.io)
 
 - 💬 Ask me about **Flutter, Design**
 
