@@ -12,8 +12,6 @@
   - Software Engineering
   - Applied Artificial Intelligence
 
-- 👨‍💻 All of my projects are available at [theablemo.github.io](https://theablemo.github.io)
-
 - 💬 Ask me about **Flutter, Design**
 
 - 📫 How to reach me **mohammad.abolnejadian@gmail.com**
