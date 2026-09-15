@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/header-dark.svg">
+  <img src="./profile/header-light.svg" width="740" alt="My year-to-date GitHub contributions and active days, alongside the primary languages of my public non-fork repositories.">
+</picture>
+
 # Hi, I’m Mohammad 👋
 
 I’m an **Applied AI Scientist at Verily**, where I’m developing a next-generation agentic framework for healthcare. I’m also pursuing my **M.Math. in Computer Science at the University of Waterloo**, working in the CS HCI lab.

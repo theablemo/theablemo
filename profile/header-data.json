@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-09-15",
+  "contributions": 163,
+  "active_days": 54,
+  "languages": [
+    [
+      "Python",
+      7
+    ],
+    [
+      "Jupyter Notebook",
+      5
+    ],
+    [
+      "Java",
+      4
+    ],
+    [
+      "Dart",
+      4
+    ],
+    [
+      "Other",
+      7
+    ]
+  ],
+  "contribution_scope": "Year-to-date activity visible on the public GitHub profile",
+  "language_scope": "Primary language per public, non-fork repository with a detected language"
+}
