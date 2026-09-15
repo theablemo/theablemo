@@ -1,4 +1,4 @@
-"""Generate the profile's tool chips, without API dependencies."""
+"""Generate the profile's horizontal timeline and tool chips without API dependencies."""
 
 from html import escape
 from pathlib import Path
@@ -31,11 +31,32 @@ def text(x, y, value, color, size=12, weight=400):
     return f'    <text x="{x}" y="{y}" fill="#{color}" font-size="{size}" font-weight="{weight}">{escape(value)}</text>'
 
 
+def render_timeline(palette):
+    # Match the approved preview: four columns, a fine rule, and restrained type.
+    # Keep one horizontal aspect ratio at every viewport; never switch to a tall asset.
+    milestones = [
+        ("2019–2024", "Sharif", ["B.Sc. Computer Engineering"]),
+        ("2022–2023", "Cafe Bazaar", ["Software engineering"]),
+        ("2025–present", "Waterloo", ["M.Math. Computer Science", "· HCI"]),
+        ("Now", "Verily", ["Applied AI Scientist"]),
+    ]
+    parts = [f'    <path d="M4 6H736" fill="none" stroke="#{palette["line"]}"/>']
+    for index, (date, name, details) in enumerate(milestones):
+        x = 4 + index * 184
+        parts.append(f'    <circle cx="{x}" cy="6" r="3.5" fill="#{palette["accent"]}"/>')
+        parts.append(text(x, 37, date, palette["muted"]))
+        parts.append(text(x, 61, name, palette["text"], 14, 600))
+        for line, detail in enumerate(details):
+            parts.append(text(x, 82 + line * 18, detail, palette["muted"]))
+    return svg_document(740, 108, "Selected education and experience", "\n".join(parts))
+
+
 def main():
     ASSETS.mkdir(exist_ok=True)
     chips = ASSETS / "tools"
     chips.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
+        (ASSETS / f"timeline-{theme}.svg").write_text(render_timeline(palette))
         for entries in TOOLS.values():
             for slug, label, width in entries:
                 body = (
