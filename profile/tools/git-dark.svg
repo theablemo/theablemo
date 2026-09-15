@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24" role="img" aria-labelledby="title">
+  <title id="title">Git</title>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+    <rect x=".5" y=".5" width="35" height="23" rx="4" fill="#151b23" stroke="#3d444d"/>
+    <text x="9" y="16" fill="#f0f6fc" font-size="12" font-weight="400">Git</text>
+  </g>
+</svg>
