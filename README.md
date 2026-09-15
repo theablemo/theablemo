@@ -1,7 +1,9 @@
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/header-dark.svg">
-  <img src="./profile/header-light.svg" width="740" alt="My year-to-date GitHub contributions and active days, alongside the primary languages of my public non-fork repositories.">
+  <img src="./profile/header-light.svg" width="100%" alt="My year-to-date GitHub contributions and active days, alongside the primary languages of my public non-fork repositories.">
 </picture>
+</p>
 
 # Hi, I’m Mohammad 👋
 
