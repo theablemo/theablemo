@@ -13,23 +13,32 @@ I combine interdisciplinary research and industry experience to **lead, design, 
 
 ## A few things I’ve worked on
 
-### [InsightToast](https://github.com/ubixgroup/InsightToast) · <sub>UIST ’26</sub>
-
-I worked on a meeting companion that brings relevant information and glanceable charts into the conversation through unobtrusive, source-grounded insights.
-
-[Code](https://github.com/ubixgroup/InsightToast) · [Demo](https://insighttoast.vercel.app/) · [Paper](https://doi.org/10.1145/3830398.3830522)
-
-### [AInsight](https://github.com/ubixgroup/AInsight) · <sub>CUI ’25</sub>
-
-I led the development of a research prototype that generates insights from doctor–patient conversations, grounded in historical data.
-
-[Code](https://github.com/ubixgroup/AInsight) · [Paper](https://doi.org/10.1145/3719160.3737633)
-
-### [DistilKaggle](https://github.com/ISE-Research/DistilKaggle) · <sub>MSR ’24</sub>
-
-I helped create a dataset of Kaggle notebooks and code metrics to make computational notebooks easier to study at scale.
-
-[Code](https://github.com/ISE-Research/DistilKaggle) · [Dataset](https://doi.org/10.5281/zenodo.10317389) · [Paper](https://doi.org/10.1145/3643991.3644882)
+<table>
+  <tr>
+    <td width="31%" valign="top">
+      <strong><a href="https://github.com/ubixgroup/InsightToast">InsightToast</a></strong> · <sub>UIST ’26</sub>
+      <br>
+      <a href="https://github.com/ubixgroup/InsightToast">Code</a> · <a href="https://insighttoast.vercel.app/">Demo</a> · <a href="https://doi.org/10.1145/3830398.3830522">Paper</a>
+    </td>
+    <td valign="top">I worked on a meeting companion that brings relevant information and glanceable charts into the conversation through unobtrusive, source-grounded insights.</td>
+  </tr>
+  <tr>
+    <td width="31%" valign="top">
+      <strong><a href="https://github.com/ubixgroup/AInsight">AInsight</a></strong> · <sub>CUI ’25</sub>
+      <br>
+      <a href="https://github.com/ubixgroup/AInsight">Code</a> · <a href="https://doi.org/10.1145/3719160.3737633">Paper</a>
+    </td>
+    <td valign="top">I led the development of a research prototype that generates insights from doctor–patient conversations, grounded in historical data.</td>
+  </tr>
+  <tr>
+    <td width="31%" valign="top">
+      <strong><a href="https://github.com/ISE-Research/DistilKaggle">DistilKaggle</a></strong> · <sub>MSR ’24</sub>
+      <br>
+      <a href="https://github.com/ISE-Research/DistilKaggle">Code</a> · <a href="https://doi.org/10.5281/zenodo.10317389">Dataset</a> · <a href="https://doi.org/10.1145/3643991.3644882">Paper</a>
+    </td>
+    <td valign="top">I helped create a dataset of Kaggle notebooks and code metrics to make computational notebooks easier to study at scale.</td>
+  </tr>
+</table>
 
 ## A little more about me
 
