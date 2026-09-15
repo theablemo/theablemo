@@ -1,4 +1,4 @@
-"""Generate the profile's static timeline and tool chips, without API dependencies."""
+"""Generate the profile's tool chips, without API dependencies."""
 
 from html import escape
 from pathlib import Path
@@ -10,12 +10,6 @@ PALETTES = {
     "light": {"text": "1f2328", "muted": "59636e", "line": "d1d9e0", "accent": "0969da", "chip": "f6f8fa"},
     "dark": {"text": "f0f6fc", "muted": "a5aeb9", "line": "3d444d", "accent": "79c0ff", "chip": "151b23"},
 }
-MILESTONES = [
-    ("2019–2024", "Sharif", ["B.Sc. Computer Engineering"]),
-    ("2022–2023", "Cafe Bazaar", ["Software engineering"]),
-    ("2025–present", "Waterloo", ["M.Math. Computer Science", "HCI"]),
-    ("Now", "Verily", ["Applied AI Scientist"]),
-]
 TOOLS = {
     "languages": [("python", "Python", 61), ("sql", "SQL", 43), ("javascript", "JavaScript", 82), ("java", "Java", 48), ("dart", "Dart", 46)],
     "ai": [("pytorch", "PyTorch", 69), ("tensorflow", "TensorFlow", 90), ("hugging-face", "Hugging Face", 102), ("langgraph", "LangGraph", 86), ("pydantic-ai", "Pydantic AI", 86), ("langchain", "LangChain", 84)],
@@ -37,32 +31,11 @@ def text(x, y, value, color, size=12, weight=400):
     return f'    <text x="{x}" y="{y}" fill="#{color}" font-size="{size}" font-weight="{weight}">{escape(value)}</text>'
 
 
-def render_timeline(palette, mobile=False):
-    width, height = (320, 320) if mobile else (740, 128)
-    parts = []
-    if mobile:
-        parts.append(f'    <path d="M8 16V263" fill="none" stroke="#{palette["line"]}"/>')
-    else:
-        parts.append(f'    <path d="M8 12H732" fill="none" stroke="#{palette["line"]}"/>')
-    for index, (date, name, details) in enumerate(MILESTONES):
-        x, y = (26, 22 + index * 80) if mobile else (8 + index * 185, 41)
-        dot_x, dot_y = (8, y - 6) if mobile else (x, 12)
-        parts.append(f'    <circle cx="{dot_x}" cy="{dot_y}" r="3.5" fill="#{palette["accent"]}"/>')
-        parts.append(text(x, y, date, palette["muted"]))
-        parts.append(text(x, y + 24, name, palette["text"], 15, 600))
-        for line, detail in enumerate(details):
-            parts.append(text(x, y + 45 + line * 17, detail, palette["muted"]))
-    return svg_document(width, height, "Selected education and experience", "\n".join(parts))
-
-
 def main():
     ASSETS.mkdir(exist_ok=True)
     chips = ASSETS / "tools"
     chips.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
-        for mobile in (False, True):
-            name = f'timeline-{"mobile-" if mobile else ""}{theme}.svg'
-            (ASSETS / name).write_text(render_timeline(palette, mobile))
         for entries in TOOLS.values():
             for slug, label, width in entries:
                 body = (

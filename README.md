@@ -26,12 +26,12 @@ I helped create a dataset of Kaggle notebooks and code metrics to make computati
 
 ## A little more about me
 
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./profile/timeline-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./profile/timeline-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/timeline-dark.svg">
-  <img src="./profile/timeline-light.svg" alt="Selected background: Sharif, B.Sc. Computer Engineering, 2019–2024; Cafe Bazaar, software engineering, 2022–2023; Waterloo, M.Math. Computer Science and HCI, 2025–present; Verily, Applied AI Scientist, now." width="740">
-</picture>
+| When | Where | What |
+| :--- | :--- | :--- |
+| 2019–2024 | **Sharif** | B.Sc. Computer Engineering |
+| 2022–2023 | **Cafe Bazaar** | Software engineering |
+| 2025–present | **Waterloo** | M.Math. Computer Science · HCI |
+| Now | **Verily** | Applied AI Scientist |
 
 Before Waterloo, I worked on backend services and an in-app payment platform at Cafe Bazaar. I’ve also been a teaching assistant at Sharif and Waterloo, and mentored undergraduate students exploring HCI and AI.
 
