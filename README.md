@@ -7,6 +7,12 @@
 
 # Hi, I’m Mohammad 👋
 
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/focus/applied-ai-dark.svg"><img src="./profile/focus/applied-ai-light.svg" alt="Applied AI" width="90" height="26"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/focus/info-viz-dark.svg"><img src="./profile/focus/info-viz-light.svg" alt="Info Viz" width="73" height="26"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/focus/hci-dark.svg"><img src="./profile/focus/hci-light.svg" alt="HCI" width="46" height="26"></picture>
+</p>
+
 I’m an **Applied AI Scientist at Verily**, where I’m developing a next-generation agentic framework for healthcare. I’m also pursuing my **M.Math. in Computer Science at the University of Waterloo**, working in the CS HCI lab.
 
 I combine interdisciplinary research and industry experience to **lead, design, and build AI systems**, from prototypes to production. I work across agent harnesses, RAG, and ML frameworks, adapting tools and methods to the problem.

@@ -1,4 +1,4 @@
-"""Generate the profile's horizontal timeline and tool chips without API dependencies."""
+"""Generate the profile's timeline, focus badges, and tool chips without API dependencies."""
 
 from html import escape
 from pathlib import Path
@@ -55,7 +55,16 @@ def main():
     ASSETS.mkdir(exist_ok=True)
     chips = ASSETS / "tools"
     chips.mkdir(exist_ok=True)
+    focus = ASSETS / "focus"
+    focus.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
+        for slug, label, width in [("applied-ai", "Applied AI", 90), ("info-viz", "Info Viz", 73), ("hci", "HCI", 46)]:
+            fill = "ddf4ff" if theme == "light" else "152b43"
+            body = (
+                f'    <rect x=".5" y=".5" width="{width - 1}" height="25" rx="13" fill="#{fill}"/>\n'
+                f'    <text x="{width / 2}" y="17" text-anchor="middle" fill="#{palette["accent"]}" font-size="12" font-weight="600">{escape(label)}</text>'
+            )
+            (focus / f"{slug}-{theme}.svg").write_text(svg_document(width, 26, label, body))
         (ASSETS / f"timeline-{theme}.svg").write_text(render_timeline(palette))
         for entries in TOOLS.values():
             for slug, label, width in entries:
